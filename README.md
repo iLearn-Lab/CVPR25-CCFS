@@ -26,7 +26,7 @@
 </div>
 
 <div align="center">
-    <img width="80%" alt="CCFS-Architecture" src="./figures/architecture.png">
+    <img width="80%" alt="CCFS-Architecture" src="./figs/architecture.png">
 </div>
 
 Official PyTorch implementation of the paper **Curriculum Coarse-to-Fine Selection for High-IPC Dataset Distillation (CVPR 2025)**. This repo contains code for conducting CCFS on CIFAR-10/100 and Tiny-ImageNet based on the already distilled data.
@@ -134,7 +134,7 @@ CUDA_VISIBLE_DEVICES=0, python eval_tiny.py \
 Performance of CCFS compared to the SOTA dataset distillation and coreset selection baselines.
 
 <div align="center">
-    <img width="80%" alt="Results" src="./figures/results.png">
+    <img width="80%" alt="Results" src="./figs/results.png">
 </div>
 
 ## Bibliography
