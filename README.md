@@ -15,7 +15,14 @@
 <sup>&#9993&#160;</sup>Corresponding author&#160;&#160;</span>
 <br/>
 
-[`arXiv`](https://arxiv.org/abs/2503.18872) | [`BibTeX`](#bibliography)
+<div align="center">
+    <a href="https://arxiv.org/abs/2503.18872" target="_blank">
+    <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
+    <a href="https://huggingface.co/CYDaaa/CCFS_teacher_checkpoints" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow" alt="Hugging Face Model"</a>
+    <a href="https://huggingface.co/datasets/CYDaaa/CCFS_distilled_data/tree/main" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Dataset-blue" alt="Hugging Face Dataset"></a>
+</div>
 </div>
 
 <div align="center">
@@ -32,13 +39,6 @@ To address this issue, we introduce a novel curriculum coarse-to-fine selection 
 CCFS employs a curriculum selection framework for real data selection, where we leverage a coarse-to-fine strategy  to select appropriate real data based on the current synthetic dataset in each curriculum.
 Extensive experiments validate CCFS, surpassing the state-of-the-art by +6.6\% on CIFAR-10, +5.8\% on CIFAR-100, and +3.4\% on Tiny-ImageNet under high-IPC settings.
 Notably, CCFS achieves 60.2\% test accuracy on ResNet-18 with a 20\% compression ratio of Tiny-ImageNet, closely matching full-dataset training with only 0.3\% degradation.
-
-## TODOs
-
-- [x] Teacher checkpoints and CDA distilled data. ![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-blue)
-- [ ] Eval scripts.
-- [x] Citation.
-- [x] Author link.
 
 ## Usage
 
